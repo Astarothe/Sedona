@@ -1,0 +1,576 @@
+@import "variables.less";
+
+input::placeholder,textarea::placeholder{
+  color: black;
+}
+.page-form__full-name{
+  margin: 0 auto;
+}
+.page-form{
+  width: 320px;
+  margin: 0 auto;
+}
+.full-name__form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.full-name--intro{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contacts--intro{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+.form--text{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333333;
+  display: inline-block;
+  margin-top: 26px;
+}
+.form--text--lastname{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333333;
+  display: inline-block;
+}
+.form--text--patronymic{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333333;
+  display: inline-block;
+}
+.form__firstname{
+  border: 0;
+  background: #f2f2f2;
+  width: 208px;
+  height: 58px;
+  padding-left: 21px;
+  margin-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "PT Sans";
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.full-name--wrapper{
+  margin-bottom: 19px;
+}
+.form__lastname{
+  border: 0;
+  background: #f2f2f2;
+  padding-left: 22px;
+  width: 169px;
+  height: 58px;
+  margin-left: 11px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "PT Sans";
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.form__patronymic{
+  border: 0;
+  background: #f2f2f2;
+  padding-left: 19px;
+  width: 171px;
+  height: 58px;
+  margin-left: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "PT Sans";
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.page-form__hr{
+  width: 320px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  margin-top: 25px;
+}
+.full-name__hr{
+  width: 320px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  margin-top: 24px;
+}
+.contacts__hr{
+  width: 320px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  margin-top: 27px;
+}
+.impression__hr{
+  width: 320px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  margin-top: 11px;
+}
+.visited__hr{
+  width: 320px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  margin-top: 1px;
+}
+.form--text-2{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333333;
+  margin-left: 22px;
+}
+.form__mobile{
+  width: 258px;
+  height: 58px;
+  background-color: #f2f2f2;
+  border:none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 22px;
+  font-family: "PT Sans";
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.form__email{
+  width: 258px;
+  height: 58px;
+  background-color: #f2f2f2;
+  border:none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 22px;
+  font-family: "PT Sans";
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.page-form__hr-2{
+  position: absolute;
+  width: 320px;
+  left: -20px;
+  background-color: #e5e5e5;
+  border: 0;
+  height: 1px;
+  bottom: -163px;
+}
+.contacts__form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contacts--wrapper{
+  margin-bottom: 13px;
+}
+.contacts--wrapper-two{
+  margin-bottom: 13px;
+}
+.impression__radio{
+  display: none;
+}
+.fake{
+  display:inline-block;
+  width: 56px;
+  height: 56px;
+  border: none;
+  position: relative;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  left: 20px;
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: #d5d5d5;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: #333333;
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+.fake-2{
+  display:inline-block;
+  width: 56px;
+  height: 56px;
+  border: none;
+  position: relative;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  left: 20px;
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: #d5d5d5;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: #333333;
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+.fake-3{
+  display:inline-block;
+  width: 56px;
+  height: 56px;
+  border: none;
+  position: relative;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  left: 20px;
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: #d5d5d5;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: #333333;
+    border-radius: 50%;
+    opacity: 0;
+    &:active{
+      background-color: #a4a4a4;
+    }
+  }
+}
+.impression__radio:checked + .fake::before{
+  opacity: 1;
+}
+.impression__radio:checked + .fake-2::before{
+  opacity: 1;
+}
+.impression__radio:checked + .fake-3::before{
+  opacity: 1;
+}
+.radio__label{
+}
+.impression--intro{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 19px;
+}
+.impression__text{
+  margin-left: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  position: absolute;
+  display: inline-block;
+}
+.impression__text-2{
+  margin-left: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 14px;
+  position: absolute;
+  display: inline-block;
+}
+.impression__text-3{
+  margin-left: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 13px;
+  position: absolute;
+  display: inline-block;
+}
+@media (min-width:@tablet-width) {
+  .page-form{
+    width: auto;
+  }
+  .general-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 0 auto;
+  }
+  .page-form__full-name{
+    order: 2;
+    margin-right: 60px;
+    margin: 0;
+  }
+  .page-contacts{
+    order: 3;
+  }
+  .page-impression{
+    order: 1;
+    width: 324px;
+    margin-left: 60px;
+    width: 324px;
+  }
+  .impression--intro{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 21px;
+  }
+  .fake{
+    left: 0;
+    top: 34px;
+  }
+  .impression__text{
+    margin-left: 0;
+    margin-top: 29px;
+    display: inline-block;
+    padding: 20px;
+  }
+  .fake-2{
+    left: 0;
+    top: 42px;
+  }
+  .impression__text-2{
+    margin-left: 0;
+    margin-top: 35px;
+    display: inline-block;
+    padding: 20px;
+  }
+  .fake-3{
+    left: 0;
+    top: 50px;
+  }
+  .impression__text-3{
+    margin-top: 65px;
+    margin-left: 20px;
+  }
+  .impression__hr{
+    display: none;
+  }
+  .full-name--intro{
+    text-align: left;
+    margin-left: 59px;
+    font-size: 21px;
+    margin-top: 10px;
+  }
+  .full-name__form{
+    margin-left: 57px;
+    margin-top: 52px;
+  }
+  .form__firstname{
+    width: 196px;
+  }
+  .form__lastname{
+    width: 157px;
+  }
+  .form__patronymic{
+    width: 159px;
+  }
+  .contacts--intro{
+    width: 768px;
+    font-size: 21px;
+    margin-top: 48px;
+  }
+  .form--text-2{
+    display: block;
+    margin-top: 28px;
+    margin-left: 61px;
+  }
+  .form__mobile{
+    width: 626px;
+    margin-left: 39px;
+  }
+  .form__email{
+    width: 626px;
+    margin-left: 39px;
+    margin-top: 8px;
+  }
+  .full-name__hr{
+    display: none;
+  }
+  .contacts__hr{
+    display: none;
+  }
+  .page-visited{
+    width: 768px;
+    margin: 0 auto;
+  }
+  .page-form__full-name{
+    position: relative;
+    &::after{
+      content: "";
+      background-color: #dbdbdb;
+      position: absolute;
+      width: 1px;
+      height: 292px;
+      top: 16px;
+      left: 0px;
+    }
+  }
+  .strip{
+    position: relative;
+    &::after{
+      content: "";
+      height: 1px;
+      background-color:#dbdbdb;
+      width: 124px;
+      display: block;
+      top: 50%;
+      position: absolute;
+      margin-left: 62px;
+    }
+    &::before{
+      content: "";
+      height: 1px;
+      background-color:#dbdbdb;
+      width: 124px;
+      display: block;
+      top: 50%;
+      position: absolute;
+      margin-right: 62px;
+      right: 0;
+    }
+  }
+}
+@media (min-width:@desktop-width) {
+  .page-form{
+    background-color: white;
+    width: 1200px;
+  }
+  .page-form__full-name{
+    width: 480px;
+    margin-left: 12px;
+    &::after{
+      top: 24px;
+      left: 0px;
+    }
+  }
+  .page-impression{
+    width: 480px;
+    margin-left: 0;
+  }
+  .full-name--intro{
+    margin-left: 81px;
+    margin-top: 18px;
+  }
+  .general-wrapper{
+    width: 1200px;
+    justify-content: center;
+  }
+  .full-name__form{
+    margin-left: 80px;
+    margin-top: 52px;
+    margin-right: 0;
+  }
+  .impression--intro{
+    margin-left: 92px;
+    margin-top: 18px;
+  }
+  .impression__form{
+    margin-left: 16px;
+  }
+  .form__firstname{
+    width: 326px;
+  }
+  .form__lastname{
+    width: 287px;
+  }
+  .form__patronymic{
+    width: 289px;
+  }
+  .contacts--intro{
+    width: 1200px;
+    margin-top:46px;
+  }
+  .strip{
+    &::before{
+      width: 279px;
+      margin-right: 114px;
+    }
+    &::after{
+      width: 279px;
+      margin-left: 126px;
+    }
+  }
+  .contacts__display{
+    display: none;
+  }
+  .form--text-2{
+    display: inline-block;
+    margin-left: 0;
+  }
+  .contacts__form{
+    display: flex;
+    margin-top: 63px;
+  }
+  .contacts--wrapper{
+    width: 400px;
+    margin-right: 32px;
+    margin-left: 106px;
+  }
+  .contacts--wrapper-two{
+    width: 480px;
+    margin-top: 2px;
+    margin-left: 48px;
+  }
+  .form__mobile{
+    width: 293px;
+    margin-left: 11px;
+  }
+  .form__email{
+    width: 293px;
+    margin-left: 13px;
+  }
+}

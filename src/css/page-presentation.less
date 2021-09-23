@@ -1,0 +1,48 @@
+@import "variables.less";
+
+.page-presentation {
+  width: 320px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.page-presentation__explain {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.page-presentation__clarify {
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 28px;
+  line-height: 1.71;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+@media (min-width: @tablet-width) {
+  .page-presentation {
+    width: 768px;
+  }
+
+  .page-presentation__explain {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .page-presentation__clarify {
+    padding-left: 176px;
+    padding-right: 177px;
+
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-presentation {
+    width: 1200px;
+    background-color: white;
+  }
+}

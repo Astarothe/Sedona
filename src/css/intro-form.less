@@ -1,0 +1,61 @@
+@import "variables.less";
+
+.intro-form{
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+  width:320px;
+  margin: 0 auto;
+}
+.intro-form__explain{
+  font-size: 18px;
+}
+.intro-form__clarify{
+  font-size: 14px;
+  margin-left: 22px;
+  margin-right: 22px;
+  color: #333333;
+  margin-top: 30px;
+  line-height: 1.71;
+}
+.intro-form__hr{
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin-top: 20px;
+  }
+@media (min-width:@tablet-width) {
+    .intro-form{
+      width:768px;
+    }
+    .intro-form__explain{
+      font-size: 30px;
+      margin-top: 65px;
+      margin-bottom: 28px;
+    }
+    .intro-form__clarify{
+      padding-left: 146px;
+      padding-right: 146px;
+      margin-bottom: 65px;
+      margin-top: 20px;
+    }
+    .intro-form__hr{
+      display: none;
+    }
+  }
+  @media (min-width:@desktop-width) {
+    .intro-form{
+      width: 1200px;
+      background: white;
+    }
+    .intro-form__explain{
+      padding-top: 105px;
+      margin-top: 0;
+    }
+    .intro-form__clarify{
+      padding-left: 380px;
+      padding-right: 380px;
+      margin: 0;
+      padding-bottom: 40px;
+    }
+  }

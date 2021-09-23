@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="build/css/style.css">
+  <title>Sedona</title>
+</head>
+<body>
+  <header class="page-header">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <div class="main-nav__wrapper">
+        <button class="main-nav__toggle--closed" type="button" name="button"></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="index.html">ГЛАВНАЯ</a></li>
+          <li class="site-list__item "><a href="photo.html">ФОТО И ВИДЕО</a></li>
+          <li class="site-list__item"><a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg" >
+                <source media="(min-width: 768px)"  srcset="img/logotype-tablet.svg" >
+                  <img class="main-nav__logotype" src="img/logotype-mobile.svg" width="102" alt="">
+                </picture> </a>
+                <button class="main-nav__toggle" type="button" name="button"><span class="visually-hidden">Открыть меню</span></button></li>
+                <li class="site-list__item site-list__item--active"><a>ФОРМА ОТЗЫВА</a></li>
+                <li class="site-list__item"><a href="#">HTML ACADEMY</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <section class="page-main__photo">
+          <section class="page-intro__header">
+            <img class="page-intro__sedona" src="img/Sedona.svg" alt="">
+            <img class="page-intro__triangle" src="" alt="">
+          </section>
+        </section>
+        <section class="intro-form">
+          <h3 class="intro-form__explain">Оставьте свой отзыв</h3>
+          <p class="intro-form__clarify">Помогите нашим отелям стать лучше!Оставьте отзыв о них, а также о посещенных вами достопримечательностях
+          </p>
+          <hr class="intro-form__hr">
+        </section>
+        <section class="page-form">
+          <div class="general-wrapper">
+          <section class="page-form__full-name">
+
+            <p class="full-name--intro">Представьтесь:</p>
+            <form class="full-name__form">
+              <div class="full-name--wrapper">
+                <label for="firstname">
+                  <span class="form--text">Имя*:</span>
+                  <input class="form__firstname" id="firstname" type="text" name="firstname" placeholder="Петр"><br>
+                </label>
+              </div>
+              <div class="full-name--wrapper">
+                <label for="lastname">
+                  <span class="form--text--lastname">Фамилия*:</span>
+                  <input class="form__lastname" id="lastname" type="text" name="lastname" placeholder="Иванов"><br>
+                </label>
+              </div>
+              <div class="full-name--wrapper">
+                <label for="patronymic">
+                  <span class="form--text--patronymic">Отчество:</span>
+                  <input class="form__patronymic" id="patronymic" type="text" name="patronymic" placeholder="Александрович"><br>
+                </label>
+              </div>
+            </form>
+            <hr class="full-name__hr">
+
+          </section>
+          <section class="page-contacts">
+            <p class="contacts--intro strip">Контактная информация:</p>
+            <form class="contacts__form">
+              <div class="contacts--wrapper">
+                <label for="mobile">
+                  <span class="form--text-2"><span class="contacts__display">Контактный</span> телефон*:</span>
+                  <input class="form__mobile" id="mobile" type="number" name="mobile" placeholder="Введите телефон"><br>
+                </label>
+              </div>
+              <div class="contacts--wrapper-two">
+                <label for="email">
+                  <span class="form--text-2">Электронная почта*:</span>
+                  <input class="form__email" id="emael" type="email" name="lastname" placeholder="Введите e-mail"><br>
+                </label>
+              </div>
+            </form>
+            <hr class="contacts__hr">
+          </section>
+          <section class="page-impression">
+            <p class="impression--intro">Ваше общее впечатление:</p>
+            <form class="impression__form">
+              <label class="label" >
+                <input class="impression__radio" type="radio" name="group" value="" checked>
+                <span class="fake"></span>
+                <span class="impression__text">Скорее положительное</span><br>
+              </label>
+              <label class="label" for="group-2">
+                <input class="impression__radio" class="radio__input" type="radio" id="group-2" name="group" value="">
+                <span class="fake-2"></span>
+                <span class="impression__text-2">Скорее отрицательное</span><br>
+              </label>
+              <label class="label" for="group-3">
+                <input class="impression__radio" class="radio__input" type="radio" id="group-3" name="group" value="">
+                <span class="fake-3"></span>
+                <span class="impression__text-3">Затрудняюсь ответить</span><br>
+              </label>
+            </form>
+            <hr class="impression__hr">
+          </section>
+        </div>
+          <section class="page-visited">
+            <p class="visited--intro strip">Посещенные<br class="tablet__br"> достопримечательности:</p>
+            <form class="visited__form">
+              <label class="visited--most" for="most">
+              <input class="visited__checkbox" type="checkbox" id="most" name="" value=""  checked>
+              <span class="visited__tick"></span>
+              <span class="visited__text">Мост Дьявола</span><br>
+              </label>
+              <label class="visited--mount" for="mount">
+              <input class="visited__checkbox" type="checkbox" id="mount" name="" value="" checked>
+              <span class="visited__tick"></span>
+              <span class="visited__text">Гора-Колокол</span><br>
+              </label>
+              <label class="visited--park" for="park">
+              <input class="visited__checkbox" type="checkbox" id="park" name="" value="" checked>
+              <span class="visited__tick"></span>
+              <span class="visited__text">Слайд-парк</span><br>
+              </label>
+              <label class="visited--rock" for="rock">
+              <input class="visited__checkbox" type="checkbox" id="rock" name="" value="">
+              <span class="visited__tick"></span>
+              <span class="visited__text">Красные скалы</span><br>
+              </label>
+            </form>
+            <hr class="visited__hr">
+          </section>
+          <section  class="emotions__wrapper">
+            <p class="emotions--intro strip">Опишите свои эмоции:</p>
+            <textarea class="emotions__window" name="name" rows="8" cols="80" placeholder="Опишите подробно все свои восторги"></textarea>
+            <button class="emotions__button" type="button" name="button">Отправить отзыв</button>
+            <p class="emotions__box">* — обязательные поля</p>
+          </section>
+        </section>
+        <footer class="page-footer">
+          <ul class="page-footer__list">
+            <li class="page-footer__item">
+              <p class="page-footer__visit">#VISITSEDONA</p>
+            </li>
+            <li class="page-footer__item">
+              <ul class="social__list">
+                <li class="social__item"><a class="social__link social__link--twitter" href="#"><span class="visually-hidden">Мы вTwitter</span></a></li>
+                <li class="social__item"><a class="social__link social__link--facebook" href="#"><span class="visually-hidden">Мы в Facebook</span></a></li>
+                <li class="social__item"><a class="social__link social__link--youtube" href="#"><span class="visually-hidden">Мы в Youtube</span></a></li>
+              </ul>
+            </li>
+            <li class="page-footer__item">
+
+              <p class="page-footer__work">РАЗРАБОТАНО</p>
+                <a class="page-footer__work--link" href="#">
+               <svg class="page-footer__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27px" heigh="34px"
+    	 viewBox="0 0 26.9 34.1" style="enable-background:new 0 0 26.9 34.1;" xml:space="preserve">
+    <path d="M13.6,0l-0.1,0L0,1.4v24.7l13.5,8l13.4-8l0,0V1.4L13.6,0z M25,12.1L13.5,5.3l0-0.1l-0.1,0l-0.1-0.1v0.1L1.9,12.1v-9
+    	l11.5-1.2L25,3.1L25,12.1L25,12.1z M13.4,6.8l11.5,6.7l-4.5,2.6l-7.1-4.2l0,1.4l5.9,3.5l-0.9,0.5l-5-3l0,1.4l3.8,2.3l-0.8,0.5
+    	l-3-1.8l0,1.4l1.9,1.1l-1.8,1.1L2,13.6L13.4,6.8z M1.9,15.1l11.4,6.8l0,1l-7.9-4.7l0,1.4l8,4.8l0,1.1l-8-4.7l0,1.4l8,4.8l0,0
+    	l8.1-4.9l0-5.2l3.4-2v10l-11.5,6.9L1.9,25V15.1z"/>
+    </svg>
+
+              </a>
+            </li>
+          </ul>
+        </footer>
+
+        <script src="build/js/script.js">
+        </script>
+      </body>
+      </html>

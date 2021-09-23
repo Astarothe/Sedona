@@ -1,0 +1,75 @@
+@import "variables.less";
+
+.main-nav {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+
+  display: block;
+  width: 70px;
+  height: 50px;
+  background: white;
+
+  cursor: pointer;
+  border: none;
+}
+
+.main-nav__toggle--closed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+
+  display: block;
+  width: 70px;
+  height: 50px;
+  background: transparent;
+
+  cursor: pointer;
+  border: none;
+}
+
+.main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 27px;
+  width: 23px;
+  height: 4px;
+  background-color: #81b3d2;
+  box-shadow: 0 8px 0 0 #81b3d2, 0 16px 0 0 #81b3d2;
+}
+
+.main-nav__list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__logotype {
+  width: 102px;
+}
+
+@media (min-width: @tablet-width) {
+  .main-nav {
+    min-width: @tablet-width;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .main-nav__logotype {
+    width: 188px
+  }
+}

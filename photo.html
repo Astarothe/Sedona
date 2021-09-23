@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="build/css/style.css">
+    <title>Sedona</title>
+</head>
+<body>
+<header class="page-header">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle--closed" type="button" name="button"></button>
+        <ul class="main-nav__list site-list">
+            <li class="site-list__item "><a href="index.html">ГЛАВНАЯ</a></li>
+            <li class="site-list__item site-list__item--active"><a>ФОТО И ВИДЕО</a></li>
+            <li class="site-list__item"><a href="#">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="img/logotype-desktop.svg">
+                    <source media="(min-width: 768px)" srcset="img/logotype-tablet.svg">
+                    <img class="main-nav__logotype" src="img/logotype-mobile.svg" width="102" alt="">
+                </picture>
+            </a>
+                <button class="main-nav__toggle" type="button" name="button"><span
+                        class="visually-hidden">Открыть меню</span>
+                </button>
+            </li>
+            <li class="site-list__item"><a href="form.html">ФОРМА ОТЗЫВА</a></li>
+            <li class="site-list__item"><a href="#">HTML ACADEMY</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-main__photo">
+    <section class="page-intro__header">
+        <img class="page-intro__sedona" src="img/Sedona.svg" alt="">
+        <span class="page-intro__triangle"></span>
+    </section>
+</section>
+<section class="page-intro">
+    <h3 class="page-intro__explain">ФОТО И ВИДЕО</h3>
+    <p class="page-intro__clarify">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
+        политике и экономике.
+    </p>
+    <hr class="page-intro__hr">
+
+</section>
+<section class="page-gallery">
+    <div class="page-gallery__position">
+        <picture class="page-gallery--photo__one">
+            <source media="(min-width:1200px)" srcset="img/photo-1-desktop.jpg">
+            <source media="(min-width:768px)" srcset="img/photo-1-tablet.jpg">
+            <source media="(min-width:320px)" srcset="img/photo-1-mobile.jpg">
+            <img class="page-gallery--photo__one" src="img/photo-1-mobile.jpg" alt="">
+        </picture>
+        <div class="page-gallery--container">
+            <div>
+                <h3 class="page-gallery__title">НЕРОДНЫЕ ПРОСТОРЫ</h3>
+                <p class="page-gallery__description">Автор фото: Борис</p>
+            </div>
+            <p class="page-gallery__numbers--one">1350</p>
+            <hr class="page-gallery__hr">
+        </div>
+    </div>
+    <div class="page-gallery--other">
+        <div class="page-gallery__position">
+            <picture class="page-gallery--photo">
+                <source media="(min-width:1200px)" srcset="img/photo-2-desktop.jpg">
+                <source media="(min-width:768px)" srcset="img/photo-2-tablet.jpg">
+                <source media="(min-width:320px)" srcset="img/photo-2-mobile.jpg">
+                <img class="page-gallery--photo" src="img/photo-2-mobile.jpg" alt="">
+            </picture>
+            <div class="page-gallery--container--1">
+                <div>
+                    <h3 class="page-gallery__title">местная растительность</h3>
+                    <p class="page-gallery__description">Автор фото: Сергей</p>
+                </div>
+                <p class="page-gallery__numbers">143</p>
+                <hr class="page-gallery__hr">
+            </div>
+        </div>
+        <div class="page-gallery__position">
+            <picture class="page-gallery--photo">
+                <source media="(min-width:1200px)" srcset="img/photo-3-desktop.jpg">
+                <source media="(min-width:768px)" srcset="img/photo-3-tablet.jpg">
+                <source media="(min-width:320px)" srcset="img/photo-3-mobile.jpg">
+                <img class="page-gallery--photo" src="img/photo-3-mobile.jpg" alt="">
+            </picture>
+            <div class="page-gallery--container--2">
+                <div>
+                    <h3 class="page-gallery__title">Дорога на север</h3>
+                    <p class="page-gallery__description">Автор фото: Петр</p>
+                </div>
+                <p class="page-gallery__numbers">96</p>
+                <hr class="page-gallery__hr">
+            </div>
+        </div>
+        <div class="page-gallery__position">
+            <picture class="page-gallery--photo">
+                <source media="(min-width:1200px)" srcset="img/photo-4-desktop.jpg">
+                <source media="(min-width:768px)" srcset="img/photo-4-tablet.jpg">
+                <source media="(min-width:320px)" srcset="img/photo-4-mobile.jpg">
+                <img class="page-gallery--photo" src="img/photo-4-mobile.jpg" alt="">
+            </picture>
+            <div class="page-gallery--container--1">
+                <div>
+                    <h3 class="page-gallery__title">Мост дьявола</h3>
+                    <p class="page-gallery__description">Автор фото: Антон</p>
+                </div>
+                <p class="page-gallery__numbers">254</p>
+                <hr class="page-gallery__hr">
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="page-presentation">
+    <h3 class="page-presentation__explain">Все еще сомневаетесь?</h3>
+    <p class="page-presentation__clarify">Смотрите видеопрезентацию и скорее за билетами, пока <br> они не подорожали в
+        очередной раз!
+    </p>
+</section>
+<section class="page-video">
+    <div class="page-video__wrapper">
+        <picture>
+            <source media="(min-width:1200px)" srcset="img/video-desktop.jpg">
+            <source media="(min-width:768px)" srcset="img/video-tablet.jpg">
+            <source media="(min-width:320px)" srcset="img/video-mobile.jpg">
+            <img class="page-video__photo" src="img/video-mobile.jpg" alt="">
+        </picture>
+        <span class="page-video__volume"></span>
+    </div>
+    <span class="page-video__settings">
+      <svg class="page-video__replay" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 16.2 20" style="enable-background:new 0 0 16.2 20;" xml:space="preserve" width="16px"
+           height="20px">
+<style type="text/css">
+	.st0 {
+        fill: none;
+    }
+</style>
+<path d="M8,4V0L3,5l5,5V6c3.7,0,6.7,3.4,5.9,7.3c-0.5,2.3-2.3,4.1-4.6,4.6C5.4,18.7,2,15.7,2,12H0c0,4.9,4.5,8.9,9.6,7.8
+	c3.1-0.6,5.6-3.1,6.2-6.2C16.9,8.5,12.9,4,8,4z"/>
+<rect id="_x3C_Фрагмент_x3E_" x="-3.2" y="-2" class="st0" width="23" height="25"/>
+</svg>
+
+
+<svg class="page-video__subtitles" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 32 20" style="enable-background:new 0 0 32 20;" xml:space="preserve">
+   <style type="text/css">
+   	.st1 {
+        fill: none;
+    }
+   </style>
+<path d="M29,0H3C1.3,0,0,1.3,0,3v14c0,1.7,1.3,3,3,3h26c1.7,0,3-1.3,3-3V3C32,1.3,30.7,0,29,0z M14.4,15.9
+	C13.9,16,13.3,16,12.7,16c-0.7,0-1.4-0.1-2-0.3c-0.6-0.2-1.2-0.6-1.6-1S8.3,13.6,8,12.8C7.7,12,7.6,11.1,7.6,10
+	c0-1.1,0.2-2.1,0.5-2.9c0.3-0.8,0.7-1.4,1.2-1.9c0.5-0.5,1.1-0.8,1.7-1C11.5,4.1,12.2,4,12.8,4c0.7,0,1.2,0,1.7,0.1
+	c0.5,0.1,0.8,0.2,1.1,0.3l-0.4,1.9c-0.3-0.1-0.6-0.2-0.9-0.3C13.9,6,13.5,6,13,6c-0.9,0-1.6,0.3-2.2,1c-0.6,0.7-0.8,1.7-0.8,3
+	c0,0.6,0.1,1.1,0.2,1.6c0.1,0.5,0.3,0.9,0.6,1.3c0.3,0.3,0.6,0.6,1,0.8c0.4,0.2,0.9,0.3,1.4,0.3c0.5,0,0.9,0,1.3-0.1
+	c0.3-0.1,0.6-0.2,0.9-0.4l0.5,1.8C15.4,15.6,14.9,15.7,14.4,15.9z M23.1,15.9C22.6,16,22,16,21.4,16c-0.7,0-1.4-0.1-2-0.3
+	c-0.6-0.2-1.2-0.6-1.6-1c-0.5-0.5-0.9-1.1-1.1-1.9c-0.3-0.8-0.4-1.7-0.4-2.8c0-1.1,0.2-2.1,0.5-2.9c0.3-0.8,0.7-1.4,1.2-1.9
+	c0.5-0.5,1.1-0.8,1.7-1C20.2,4.1,20.9,4,21.5,4c0.7,0,1.2,0,1.7,0.1c0.5,0.1,0.8,0.2,1.1,0.3l-0.4,1.9c-0.3-0.1-0.6-0.2-0.9-0.3
+	C22.6,6,22.2,6,21.7,6c-0.9,0-1.6,0.3-2.2,1c-0.6,0.7-0.8,1.7-0.8,3c0,0.6,0.1,1.1,0.2,1.6c0.1,0.5,0.3,0.9,0.6,1.3
+	c0.3,0.3,0.6,0.6,1,0.8c0.4,0.2,0.9,0.3,1.4,0.3c0.5,0,0.9,0,1.3-0.1c0.3-0.1,0.6-0.2,0.9-0.4l0.5,1.8
+	C24.1,15.6,23.6,15.7,23.1,15.9z"/>
+</svg>
+<svg class="page-video__fullscreen" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 19.9 20" style="enable-background:new 0 0 19.9 20;" xml:space="preserve" width="20px" height="20px">
+
+<g>
+	<polygon points="0,0 0,3 0,6 3,6 3,3 6,3 6,0 3,0 	"/>
+	<polygon points="3,14 0,14 0,17 0,20 3,20 6,20 6,17 3,17 	"/>
+	<polygon points="17,0 14,0 14,3 17,3 17,6 20,6 20,3 20,0 	"/>
+	<polygon points="17,17 14,17 14,20 17,20 20,20 20,17 20,14 17,14 	"/>
+</g>
+</svg>
+
+
+
+    </span>
+</section>
+<footer class="page-footer">
+    <ul class="page-footer__list">
+        <li class="page-footer__item">
+            <p class="page-footer__visit">#VISITSEDONA</p>
+        </li>
+        <li class="page-footer__item">
+            <ul class="social__list">
+                <li class="social__item"><a class="social__link social__link--twitter" href="#"><span
+                        class="visually-hidden">Мы вTwitter</span></a></li>
+                <li class="social__item"><a class="social__link social__link--facebook" href="#"><span
+                        class="visually-hidden">Мы в Facebook</span></a></li>
+                <li class="social__item"><a class="social__link social__link--youtube" href="#"><span
+                        class="visually-hidden">Мы в Youtube</span></a></li>
+            </ul>
+        </li>
+        <li class="page-footer__item">
+
+            <p class="page-footer__work">РАЗРАБОТАНО</p>
+            <a class="page-footer__work--link" href="#">
+                <svg class="page-footer__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27px" heigh="34px"
+                     viewBox="0 0 26.9 34.1" style="enable-background:new 0 0 26.9 34.1;" xml:space="preserve">
+<path d="M13.6,0l-0.1,0L0,1.4v24.7l13.5,8l13.4-8l0,0V1.4L13.6,0z M25,12.1L13.5,5.3l0-0.1l-0.1,0l-0.1-0.1v0.1L1.9,12.1v-9
+l11.5-1.2L25,3.1L25,12.1L25,12.1z M13.4,6.8l11.5,6.7l-4.5,2.6l-7.1-4.2l0,1.4l5.9,3.5l-0.9,0.5l-5-3l0,1.4l3.8,2.3l-0.8,0.5
+l-3-1.8l0,1.4l1.9,1.1l-1.8,1.1L2,13.6L13.4,6.8z M1.9,15.1l11.4,6.8l0,1l-7.9-4.7l0,1.4l8,4.8l0,1.1l-8-4.7l0,1.4l8,4.8l0,0
+l8.1-4.9l0-5.2l3.4-2v10l-11.5,6.9L1.9,25V15.1z"/>
+</svg>
+
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="build/js/script.js">
+</script>
+</body>
+</html>

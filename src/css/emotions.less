@@ -1,0 +1,115 @@
+@import "variables.less";
+
+.emotions__wrapper{
+  margin-bottom: 22px;
+}
+.emotions--intro{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+.emotions__window{
+  width: 238px;
+  height: 140px;
+  border: none;
+  background-color: #f2f2f2;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 46px;
+  font-family: "PT Sans";
+  resize: none;
+  &:hover{
+    background: #e5e5e5;
+  }
+  &:active{
+    background: white;
+  }
+}
+.emotions__button{
+  width: 280px;
+  height: 58px;
+  background-color: #81b3d2;
+  border: 0;
+  margin-left: 19px;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "PT Sans";
+  padding-top: 0;
+  padding-bottom: 0;
+  &:hover{
+    background: #669ec0;
+  }
+  &:active{
+    background: #5496bd;
+    color: #88b6d1;
+  }
+  &:disabled{
+    background: #e5e5e5;
+  }
+}
+.emotions__box{
+  display: none;
+}
+@media (min-width:@tablet-width) {
+  .emotions--intro{
+    font-size: 21px;
+    margin-top: 20px;
+  }
+
+  .emotions__wrapper{
+    margin: 0 auto;
+    width: 768px;
+    margin-bottom: 62px;
+  }
+  .emotions__window{
+    width: 608px;
+    margin-top: 36px;
+    margin-left: 60px;
+  }
+  .emotions__box{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 160px;
+    font-size: 14px;
+  }
+  .emotions__button{
+    margin-left: 60px;
+    margin-top: 6px;
+    width: 324px;
+    padding: 0;
+  }
+
+}
+@media (min-width:@desktop-width) {
+  .emotions__wrapper{
+    width: 1200px;
+    margin-bottom: 0px;
+    padding-bottom: 65px;
+  }
+  .emotions--intro{
+    margin-top: 42px;
+  }
+  .emotions__window{
+    width: 919px;
+    margin-top: 36px;
+    margin-left: 127px;
+    padding-top: 18px;
+  }
+  .emotions__button{
+    margin-left: 126px;
+    margin-top: 8px;
+    width: 480px;
+  }
+  .emotions__box{
+    margin-left: 316px;
+  }
+}
